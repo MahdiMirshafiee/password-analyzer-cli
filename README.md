@@ -4,7 +4,7 @@
 
 - محاسبهٔ **قدرت** رمز عبور  
 - بررسی **لو رفتن** آن در دیتابیس‌های معروف (Have I Been Pwned)   
-```markdown
+---
 ## Features
 
 - **Strength Scoring**  
@@ -13,7 +13,7 @@
 - **Breach Check**  
   با استفاده از API **Have I Been Pwned** ، تعداد دفعات لو رفتن رمز در گذشته را نمایش می‌دهد.
 
-```markdown
+---
 ## Installation
 **From PyPI**  
 ```bash
@@ -29,7 +29,7 @@ source venv/bin/activate       # Linux/macOS
 # venv\Scripts\activate        # Windows PowerShell
 pip install -e .
 ```
-```markdown
+---
 ## Usage
 **Direct flag**
 ```bash
@@ -48,12 +48,12 @@ paz
 # Strength: Strong (score: 4)
 # Password not found in known breaches
 ```
-```markdown
+---
 ## Help
 ```bash
 paz --help
 ```
-```markdown
+---
 ## Contributing
 1.	یک Issue باز کنید برای پیشنهاد فیچر یا گزارش باگ
 2.	از برنچ dev :شاخه‌ای بسازید
@@ -68,6 +68,6 @@ git commit -m "[شرح کوتاه تغییرات]"
 git push origin feature/your-feature-name
 ```
 4.	یک Pull Request از شاخهٔ خود به dev باز کنید
-```markdown
+---
 ## License
 This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
