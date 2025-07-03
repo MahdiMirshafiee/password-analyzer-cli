@@ -1,0 +1,15 @@
+certifi==2025.6.15
+charset-normalizer==3.4.2
+click==8.2.1
+idna==3.10
+iniconfig==2.1.0
+markdown-it-py==3.0.0
+mdurl==0.1.2
+packaging==25.0
+pluggy==1.6.0
+Pygments==2.19.2
+pyhibp==4.2.0
+pytest==8.4.1
+requests==2.32.4
+rich==14.0.0
+urllib3==2.5.0
