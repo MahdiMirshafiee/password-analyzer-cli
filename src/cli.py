@@ -21,7 +21,7 @@ def analyze_password(password: str):
     flagp=0
     if not password:
         flagp=1
-        password = getpass("🔑 Enter password (input hidden): ")
+        password = getpass(" Enter password (input hidden): ")
 
     strength, score = score_password(password)
 
