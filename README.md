@@ -5,16 +5,16 @@
 - محاسبهٔ **قدرت** رمز عبور  
 - بررسی **لو رفتن** آن در دیتابیس‌های معروف (Have I Been Pwned)   
 ---
-## Features
+## 🚀 Features
 
 - **Strength Scoring**  
   بر اساس طول، ترکیب حروف بزرگ/کوچک، اعداد، کاراکترهای خاص و جلوگیری از واژه‌های خیلی رایج، به رمز شما از 6 نمره می‌دهد.
 
 - **Breach Check**  
-  با استفاده از API سرویس معروف `Have I Been Pwned`، تعداد دفعات افشای رمز در گذشته را نمایش می‌دهد.
+  با استفاده از API سرویس معروف [`Have I Been Pwned`](https://haveibeenpwned.com)، تعداد دفعات افشای رمز در گذشته را نمایش می‌دهد.
 
 ---
-## Installation
+## 📦 Installation
 **From PyPI**  
 ```bash
 pip install paz
@@ -30,7 +30,7 @@ source venv/bin/activate       # Linux/macOS
 pip install -e .
 ```
 ---
-## Usage
+## ⚙️ Usage
 **Direct flag**
 ```bash
 password-analyzer -p 'MyP@ssw0rd!'
@@ -49,12 +49,12 @@ paz
 # Password not found in known breaches
 ```
 ---
-## Help
+## 🆘 Help
 ```bash
 paz --help
 ```
 ---
-## Contributing
+## 🛠 Contributing
 1.	یک Issue باز کنید برای پیشنهاد فیچر یا گزارش باگ
 2.	از برنچ dev :شاخه‌ای بسازید
 ```bash
@@ -69,5 +69,5 @@ git push origin feature/your-feature-name
 ```
 4.	یک Pull Request از شاخهٔ خود به dev باز کنید
 ---
-## License
+## 📄 License
 This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
