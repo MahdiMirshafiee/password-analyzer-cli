@@ -13,4 +13,4 @@ def check_breach(password: str) -> int | None:
         result = pwnedpasswords.is_password_breached(password)
         return result or 0
     except Exception:
-        return -1  
+        return None  
