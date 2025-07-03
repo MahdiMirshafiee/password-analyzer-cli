@@ -1,4 +1,4 @@
-**Password Analyzer CLI**  
+## Password Analyzer CLI
 ابزاری برای:
 - محاسبه‌ی قدرت رمز  
 - بررسی وضعیت در دیتابیس‌های لو رفته (HIBP)  
