@@ -1,4 +1,0 @@
-click>=8.0
-requests>=2.0
-rich>=10.0
-pyhibp>=1.0
