@@ -6,21 +6,18 @@ from breach import check_breach
 
 @click.command(
     name="paz",
-    help=(
-    """
-This CLI tool evaluates the strength of your password and checks whether it has been
-found in any known data breaches using the Have I Been Pwned API.
-
-Usage examples:
-
-paz -p ""   # Direct password input
-
-paz           # Prompts you to enter password securely
-    """
-    )
+    help=("Analyze password strength and check for known data breaches. \n Run `paz` without options to enter password securely.")
 )
 @click.option('--password', '-p', required=False, help='Password to analyze.If not provided, you will be prompted securely (hidden input).')
 def analyze_password(password: str):
+    """
+    This CLI tool evaluates the strength of your password and checks whether it has been
+    found in any known data breaches using the Have I Been Pwned API.
+
+    Usage examples:
+    paz -p "pass"   # Direct password input
+    paz         # Prompts you to enter password securely
+    """
     flagp=0
     if not password:
         flagp=1
