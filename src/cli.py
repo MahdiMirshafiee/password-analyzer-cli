@@ -35,15 +35,15 @@ def analyze_password(password: str):
     else:
         color = "bold green"
     if flagp == 0:
-        print(f"[bold cyan]🔍 Password:[/bold cyan] {password}")
+        print(f"[bold cyan] Password:[/bold cyan] {password}")
     else:
-        print("[bold cyan]🔍 Password: hidden input received[/bold cyan]")
-    print(f"[{color}]💪 Strength: {strength} (score: {score})[/{color}]")
+        print("[bold cyan] Password: hidden input received[/bold cyan]")
+    print(f"[{color}] Strength: {strength} (score: {score})[/{color}]")
 
     breach_count = check_breach(password)
     if breach_count is None:
-        print("[bold red]❌  Breach check failed (network error)[/bold red]")
+        print("[bold red]  Breach check failed (network error)[/bold red]")
     elif breach_count == 0:
-        print("[bold green]✅ Password not found in known breaches[/bold green]")
+        print("[bold green] Password not found in known breaches[/bold green]")
     else:
-        print(f"[bold red]🚨 Password found in {breach_count} data breaches![/bold red]")
+        print(f"[bold red] Password found in {breach_count} data breaches![/bold red]")
