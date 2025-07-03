@@ -18,7 +18,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'password-analyzer = cli:analyze_password',
+            'paz = cli:analyze_password',
         ],
     },
     classifiers=[
