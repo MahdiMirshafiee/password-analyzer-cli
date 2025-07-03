@@ -1,6 +1,6 @@
 # Paz – Password Analyzer CLI
 
-یک ابزار خط‌فرمانی ساده برای:
+یک ابزار خط فرمانی(CLI) ساده برای:
 
 - محاسبهٔ **قدرت** رمز عبور  
 - بررسی **لو رفتن** آن در دیتابیس‌های معروف (Have I Been Pwned)   
@@ -11,12 +11,7 @@
   بر اساس طول، ترکیب حروف بزرگ/کوچک، اعداد، کاراکترهای خاص و جلوگیری از واژه‌های خیلی رایج، به رمز شما از 6 نمره می‌دهد.
 
 - **Breach Check**  
-  با استفاده از API **Have I Been Pwned** و روش K-Anonymity، تعداد دفعات لو رفتن رمز در گذشته را نمایش می‌دهد.
-
-- **Hidden Input**  
-  اگر گزینهٔ `--password` ارائه نشود، از شما درخواست می‌کند رمز را مخفی وارد کنید (رشته در ترمینال نمایش داده نمی‌شود).
-
-
+  با استفاده از API **Have I Been Pwned** ، تعداد دفعات لو رفتن رمز در گذشته را نمایش می‌دهد.
 
 
 ## Installation
@@ -57,7 +52,9 @@ paz
 ```
 
 ## Help
+```bash
 paz --help
+```
 
 ## Contributing
 1.	یک Issue باز کنید برای پیشنهاد فیچر یا گزارش باگ
@@ -65,12 +62,14 @@ paz --help
 ```bash
 git checkout dev
 git checkout -b feature/your-feature-name
+```
 3.	تغییرات را commit کنید و push:
+```bash
 git add .
 git commit -m "[شرح کوتاه تغییرات]"
 git push origin feature/your-feature-name
-4.	یک Pull Request از شاخهٔ خود به dev باز کنید
 ```
+4.	یک Pull Request از شاخهٔ خود به dev باز کنید
 
 ## License
 This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
