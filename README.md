@@ -1,4 +1,4 @@
-# Paz – Password Analyzer CLI
+# Paz – Password Analyzer CLI ![Version](https://img.shields.io/badge/version-v1.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-green) [![PyPI](https://img.shields.io/pypi/v/toolz-password)](https://pypi.org/project/toolz-password/)
 
 یک ابزار خط فرمانی(CLI) ساده برای:
 
