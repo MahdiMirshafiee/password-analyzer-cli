@@ -20,9 +20,9 @@ def score_password(password: str) -> tuple[str, int]:
     if password.lower() in COMMON_PASSWORDS:
         score -= 2
 
-    if score <= 1:
+    if score <= 2:
         return "Weak", score
-    elif score <= 3:
+    elif score <= 4:
         return "Medium", score
     else:
         return "Strong", score
