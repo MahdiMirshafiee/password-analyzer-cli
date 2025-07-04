@@ -1,8 +1,8 @@
 import click
 from rich import print
 from getpass import getpass
-from strength import score_password
-from breach import check_breach
+from paz.strength import score_password
+from paz.breach import check_breach
 
 @click.command(
     name="paz",

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='password-analyzer-cli',
+    name='paz',
     version='0.2.0',
     author='Mahdi Mirshafiee',
     description='A CLI tool to analyze password strength and breach status',
@@ -18,7 +18,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'paz = cli:analyze_password',
+            'paz = paz.cli:analyze_password',
         ],
     },
     classifiers=[

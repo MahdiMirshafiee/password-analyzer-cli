@@ -1,4 +1,4 @@
-from strength import score_password
+from paz.strength import score_password
 
 def test_very_weak_password():
     label, score = score_password("123")

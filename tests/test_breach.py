@@ -1,4 +1,4 @@
-from breach import check_breach
+from paz.breach import check_breach
 
 def test_breached_password():
     count = check_breach("123456")
