@@ -17,7 +17,7 @@
 ## 📦 Installation
 **From PyPI**  
 ```bash
-pip install paz
+pip install paz-cli
 ```
 
 **From Source**

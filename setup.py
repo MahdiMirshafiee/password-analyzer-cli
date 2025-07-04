@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='paz',
+    name='paz-cli',
     version='0.2.0',
     author='Mahdi Mirshafiee',
     description='A CLI tool to analyze password strength and breach status',
