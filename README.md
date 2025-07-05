@@ -34,8 +34,8 @@ pip install -e .
 ## ⚙️ Usage
 **Direct flag**
 ```bash
-password-analyzer -p 'MyP@ssw0rd!'
-password-analyzer --password 'MyP@ssw0rd!'
+paz -p 'MyP@ssw0rd!'
+paz --password 'MyP@ssw0rd!'
 # Password: MyP@ssw0rd!
 # Strength: Strong (score: 5)
 # Password found in 183 data breaches!
