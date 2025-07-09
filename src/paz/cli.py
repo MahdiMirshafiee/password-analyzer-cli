@@ -23,6 +23,10 @@ def analyze_password(password: str):
         flagp=1
         password = getpass(" Enter password (input hidden): ")
 
+        if not password:
+            print("[bold red]Error: Password cannot be empty.[/bold red]")
+            return
+        
     strength, score = score_password(password)
 
     if strength == "Weak":
