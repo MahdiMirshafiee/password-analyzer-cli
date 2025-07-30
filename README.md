@@ -64,7 +64,7 @@ git checkout -b feature/your-feature-name
 3.	Commit and push your changes:
 ```bash
 git add .
-git commit -m "[شرح کوتاه تغییرات]"
+git commit -m "[Short description of changes]"
 git push origin feature/your-feature-name
 ```
 4.	Open a Pull Request from your branch to dev
